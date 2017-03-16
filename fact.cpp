@@ -13,5 +13,5 @@ int func()
     std::cout << "input a number: "; 
     std::cin >> n; 
     while (n > 1) ret *= n--; 
-    return ret; 
+    return ret+1; 
 } 
